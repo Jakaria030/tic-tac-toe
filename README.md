@@ -4,11 +4,11 @@ A simple Tic Tac Toe game built with **React.js** and **TypeScript** for learnin
 
 
 ## Live Link
-[https://task-management-app-12bfd.web.app/](https://task-management-app-12bfd.web.app/home)
+[https://tic-tac-toe-six-ruby.vercel.app](https://tic-tac-toe-six-ruby.vercel.app)
 
 
 ## Preview
-![Project Image](public/tic-tac-toe.PNG)
+![Project Image](public/tic-tac-toe.png)
 
 
 ## 🛠️ Tech Stack
