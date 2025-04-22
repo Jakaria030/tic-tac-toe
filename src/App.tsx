@@ -76,13 +76,13 @@ function App(): JSX.Element {
 
         {/* player turn & winner */}
         {start && <div className="flex items-center justify-center my-9">
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent uppercase">
+          <h2 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent uppercase">
             {winner !== null ? `${winner === 'Alice' ? 'Alice is the Winner.' : 'Bob is the Winner.'}` : `It's your turn, ${currentTurn === 'X' ? 'Alice' : 'Bob'}`}
           </h2>
         </div>}
 
         {/* board */}
-        <div className="size-90 ring-4 ring-offset-2 ring-gray-500 bg-gray-300 rounded-sm shadow-2xl overflow-hidden">
+        <div className="size-72 sm:size-90 ring-4 ring-offset-2 ring-gray-500 bg-gray-300 rounded-sm shadow-2xl overflow-hidden">
           <div className="grid grid-cols-3 h-full border-2 rounded-sm border-gray-500 p-2">
             {
               state.map((_, indx) => (
