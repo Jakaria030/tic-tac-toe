@@ -8,7 +8,7 @@ type BlockProps = {
 const Block = ({ value, onClick }: BlockProps): JSX.Element => {
     return (
         <div onClick={onClick} className="cursor-pointer text-2xl font-bold uppercase border border-gray-800 flex items-center justify-center">
-            {value || '\u00A0'}
+            {value === 'X' ? '❌' : value === 'O' ? '⭕' : '\u00A0'} 
         </div>
     );
 };

@@ -77,7 +77,7 @@ function App(): JSX.Element {
         {/* player turn & winner */}
         {start && <div className="flex items-center justify-center my-9">
           <h2 className="text-3xl font-bold bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent uppercase">
-            {winner !== null ? `${winner === 'Alice' ? 'Alice is Winner.' : 'Bob is Winner.'}` : `It's your turn '${currentTurn === 'X' ? 'Alice' : 'Bob'}'`}
+            {winner !== null ? `${winner === 'Alice' ? 'Alice is the Winner.' : 'Bob is the Winner.'}` : `It's your turn, ${currentTurn === 'X' ? 'Alice' : 'Bob'}`}
           </h2>
         </div>}
 
